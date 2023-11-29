@@ -105,6 +105,7 @@ const init = function () {
   recipeView.addHandlerBookmarks(controlBookmarks);
   searchView.addHandlerSearch(controlSearchResults);
   paginationView.addHandlerClick(controlPagination);
+  console.log('testing congfig');
 };
 
 init();
